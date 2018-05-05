@@ -20,7 +20,7 @@ last_update_time = Sys.Date()
 
 **Last Update Time: `r last_update_time`**
 
-This table is extract from [this website](https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1), the table is available for download here: user_agent.csv
+This table is extract from [this website](https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1), the table is available for download here: [user_agent.csv](https://raw.githubusercontent.com/yusuzech/top-50-user-agents/master/user_agent.csv)
 
 ```{r}
 url <- "https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1"

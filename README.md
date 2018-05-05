@@ -3,7 +3,7 @@ Popular User Agent
 
 **Last Update Time: 2018-05-04**
 
-This table is extract from [this website](https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1), the table is available for download here: user\_agent.csv
+This table is extract from [this website](https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1), the table is available for download here: [user\_agent.csv](https://raw.githubusercontent.com/yusuzech/top-50-user-agents/master/user_agent.csv)
 
 | User agent                                                                                                                        | Software             | OS       | Layout engine | Popularity  |
 |:----------------------------------------------------------------------------------------------------------------------------------|:---------------------|:---------|:--------------|:------------|
