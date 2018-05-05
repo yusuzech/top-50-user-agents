@@ -1,19 +1,31 @@
 ---
 title: "Popular User Agent"
-author: "yusuzech"
-date: "2018-5-4"
 output: github_document
 ---
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
 library(rvest)
 ```
+
+
+```{r "some info"}
+last_update_time = Sys.Date()
+```
+
+**Last Update Time: `r last_update_time`**
+
+This table is extract from [this website](https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1), the table is available for download here: user_agent.csv
 
 ```{r}
 url <- "https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1"
 
 mytb <- read_html(url) %>% html_node(".table ") %>% html_table()
 knitr::kable(mytb)
+write.csv(mytb,"user_agent.csv")
 ```

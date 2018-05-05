@@ -1,7 +1,9 @@
 Popular User Agent
 ================
-yusuzech
-2018-5-4
+
+**Last Update Time: 2018-05-04**
+
+This table is extract from [this website](https://developers.whatismybrowser.com/useragents/explore/software_type_specific/web-browser/1), the table is available for download here: user\_agent.csv
 
 | User agent                                                                                                                        | Software             | OS       | Layout engine | Popularity  |
 |:----------------------------------------------------------------------------------------------------------------------------------|:---------------------|:---------|:--------------|:------------|
